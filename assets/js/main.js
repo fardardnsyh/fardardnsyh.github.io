@@ -99,7 +99,7 @@ jQuery(document).ready(function($) {
                     $("#contact-form.error input, #contact-form.error textarea").removeClass("error");
                     $('#contact-form').addClass("success");
                     $('#contact-form textarea, #contact-form input').attr("placeholder","");
-                    $('#contact-form input, #contact-form button, #contact-form textarea').val('').prop('disabled', true);
+                    $('#contact-form input, #contact-form button, #contact-form textarea').val('').prop('enabled', true);
 
                 }
 
